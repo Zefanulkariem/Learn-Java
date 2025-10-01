@@ -101,18 +101,35 @@ public class Variable {
     //     System.out.println("Luas persegi panjang dari panjang " + panjang + " dan lebar " + lebar + " adalah: " + panjang*lebar);
     // }
 
-    public static void main(String[] args) {
+    // public static void main(String[] args) {
         
-        int totalDetik, jam, jamSisa, menit, detik;
+    //     int totalDetik, jam, jamSisa, menit, detik;
 
-        totalDetik = 7299;
+    //     totalDetik = 7299;
 
-        jam = totalDetik / 3600;
-        jamSisa = totalDetik % 3600;
+    //     jam = totalDetik / 3600;
+    //     jamSisa = totalDetik % 3600;
 
-        menit = jamSisa / 60;
-        detik = jamSisa % 60;
+    //     menit = jamSisa / 60;
+    //     detik = jamSisa % 60;
 
-        System.out.println(jam + " " + menit + " " + detik);
+    //     System.out.println(jam + " " + menit + " " + detik);
+    // }
+
+    public static void main(String[] args){
+        int y, x, z, a;
+        x = 1;
+        y = 2;
+        z = 3;
+
+        a = y;
+        y = x;
+        x = z;
+        z = a;
+
+        System.out.println(x);
+        System.out.println(y);
+        System.out.println(z);
     }
+
 }
